@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>
+        Entorno Virtual de Orientación Pedagógica
+    </title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- ==========================
+            MENÚ
+    =========================== -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow fixed-top">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="#">
+                <!-- Logo actualizado con fondo blanco redondeado para mejor visibilidad -->
+                <img src="assets/img/logo tsachila 1.jpg" alt="Logo Instituto Superior Tecnológico Tsáchila" width="55" class="me-3 bg-white rounded p-1">
+                <div>
+                    <h5 class="m-0 text-white">
+                        Instituto Superior Tecnológico Tsáchila
+                    </h5>
+                    <small>
+                        Educación Inicial
+                    </small>
+                </div>
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#inicio">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#proyecto">Proyecto</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#objetivos">Objetivos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#recursos">Recursos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#evaluacion">Evaluación</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contacto">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ==========================
+            HERO
+    =========================== -->
+    <section id="inicio" class="hero">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <span class="badge bg-warning text-dark mb-3">
+                        PROYECTO DE INVESTIGACIÓN
+                    </span>
+                    <h1>
+                        Observación de Conductas de Autonomía
+                    </h1>
+                    <h3>
+                        Diagnóstico de los Hábitos de Aseo y Alimentación
+                    </h3>
+                    <p class="mt-4">
+                        Este Entorno Virtual de Orientación Pedagógica proporciona recursos para docentes y familias con el fin de fortalecer la autonomía de niños y niñas de 3 a 4 años en hábitos de aseo y alimentación.
+                    </p>
+                    <div class="mt-4">
+                        <a href="#proyecto" class="btn btn-warning btn-lg me-3">
+                            Conocer Proyecto
+                        </a>
+                        <a href="#evaluacion" class="btn btn-outline-light btn-lg">
+                            Ficha de Evaluación
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-6 text-center">
+                    <img src="assets/img/hero.png" class="img-fluid hero-image" alt="Ilustración principal">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================
+            PROYECTO
+    =========================== -->
+    <section id="proyecto" class="py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2>
+                    Sobre el Proyecto
+                </h2>
+                <p>
+                    El proyecto tiene como finalidad orientar a docentes y familias mediante recursos pedagógicos que favorezcan la autonomía infantil en hábitos cotidianos.
+                </p>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card shadow border-0 h-100">
+                        <div class="card-body text-center">
+                            <i class="fa-solid fa-child fa-3x text-primary mb-3"></i>
+                            <h4>
+                                Niños de 3 a 4 años
+                            </h4>
+                            <p>
+                                Etapa en la que se consolidan habilidades básicas de autonomía personal.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card shadow border-0 h-100">
+                        <div class="card-body text-center">
+                            <i class="fa-solid fa-hand-holding-heart fa-3x text-success mb-3"></i>
+                            <h4>
+                                Hábitos de Aseo
+                            </h4>
+                            <p>
+                                Lavado correcto de manos, higiene personal y adquisición de rutinas saludables.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card shadow border-0 h-100">
+                        <div class="card-body text-center">
+                            <i class="fa-solid fa-utensils fa-3x text-danger mb-3"></i>
+                            <h4>
+                                Alimentación
+                            </h4>
+                            <p>
+                                Fortalecimiento de la autonomía durante la alimentación y el uso adecuado de utensilios.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================
+                OBJETIVOS DEL PROYECTO
+    =========================================== -->
+    <section id="objetivos" class="py-5 bg-light">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold">
+                    Objetivos de la Investigación
+                </h2>
+                <p class="text-muted">
+                    Contribuir al fortalecimiento de la autonomía infantil mediante recursos pedagógicos basados en evidencia científica.
+                </p>
+            </div>
+            <div class="row g-4">
+                <!-- Objetivo General -->
+                <div class="col-lg-12">
+                    <div class="card shadow border-0">
+                        <div class="card-body p-4">
+                            <h3 class="text-primary">
+                                <i class="fa-solid fa-bullseye"></i>
+                                Objetivo General
+                            </h3>
+                            <p class="mt-3">
+                                Diseñar un Entorno Virtual de Orientación Pedagógica que fortalezca los hábitos de aseo y alimentación en niños y niñas de 3 a 4 años mediante recursos didácticos dirigidos a familias y docentes.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Objetivo 1 -->
+                <div class="col-md-4">
+                    <div class="card h-100 shadow border-0">
+                        <div class="card-body text-center">
+                            <i class="fa-solid fa-book-open fa-4x text-primary mb-4"></i>
+                            <h4>
+                                Objetivo Específico 1
+                            </h4>
+                            <p>
+                                Analizar la literatura científica sobre los hitos del desarrollo psicomotor y socioemocional relacionados con el inicio del lavado de manos y la alimentación asistida en niños de 3 a 4 años.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Objetivo 2 -->
+                <div class="col-md-4">
+                    <div class="card h-100 shadow border-0">
+                        <div class="card-body text-center">
+                            <i class="fa-solid fa-users fa-4x text-success mb-4"></i>
+                            <h4>
+                                Objetivo Específico 2
+                            </h4>
+                            <p>
+                                Sintetizar las evidencias bibliográficas sobre los niveles de asistencia (guía verbal y física) requeridos durante las rutinas de aseo y alimentación.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Objetivo 3 -->
+                <div class="col-md-4">
+                    <div class="card h-100 shadow border-0">
+                        <div class="card-body text-center">
+                            <i class="fa-solid fa-laptop-code fa-4x text-danger mb-4"></i>
+                            <h4>
+                                Objetivo Específico 3
+                            </h4>
+                            <p>
+                                Diseñar un módulo web de orientación con sugerencias pedagógicas de estimulación temprana aplicables entre el hogar y el centro educativo.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================
+            TARJETAS DE NAVEGACIÓN
+    =========================================== -->
+    <section class="py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2>
+                    Explora el Sitio
+                </h2>
+                <p>
+                    Seleccione una sección para conocer más.
+                </p>
+            </div>
+
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-6">
+                    <div class="card card-menu shadow h-100">
+                        <div class="card-body text-center">
+                            <i class="fa-solid fa-brain fa-4x text-primary mb-4"></i>
+                            <h4>
+                                Desarrollo Infantil
+                            </h4>
+                            <p>
+                                Conoce los hitos del desarrollo psicomotor y socioemocional.
+                            </p>
+                            <a href="desarrollo.html" class="btn btn-primary">
+                                Ingresar
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="card card-menu shadow h-100">
+                        <div class="card-body text-center">
+                            <i class="fa-solid fa-hands-bubbles fa-4x text-info mb-4"></i>
+                            <h4>
+                                Hábitos de Aseo
+                            </h4>
+                            <p>
+                                Secuencias didácticas del lavado de manos.
+                            </p>
+                            <a href="aseo.html" class="btn btn-info text-white">
+                                Ingresar
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="card card-menu shadow h-100">
+                        <div class="card-body text-center">
+                            <i class="fa-solid fa-utensils fa-4x text-success mb-4"></i>
+                            <h4>
+                                Alimentación
+                            </h4>
+                            <p>
+                                Actividades para desarrollar la autonomía alimentaria.
+                            </p>
+                            <a href="alimentacion.html" class="btn btn-success">
+                                Ingresar
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="card card-menu shadow h-100">
+                        <div class="card-body text-center">
+                            <i class="fa-solid fa-gamepad fa-4x text-warning mb-4"></i>
+                            <h4>
+                                Gamificación
+                            </h4>
+                            <p>
+                                Juegos educativos para reforzar los hábitos saludables.
+                            </p>
+                            <a href="gamificacion.html" class="btn btn-warning">
+                                Ingresar
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================
+                    ESTADÍSTICAS
+    =========================================== -->
+    <section class="bg-primary text-white py-5">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-3">
+                    <h1 class="display-4 fw-bold">40+</h1>
+                    <p>Artículos Científicos</p>
+                </div>
+                <div class="col-md-3">
+                    <h1 class="display-4 fw-bold">20+</h1>
+                    <p>Recursos Didácticos</p>
+                </div>
+                <div class="col-md-3">
+                    <h1 class="display-4 fw-bold">15+</h1>
+                    <p>Actividades</p>
+                </div>
+                <div class="col-md-3">
+                    <h1 class="display-4 fw-bold">100%</h1>
+                    <p>Acceso Gratuito</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================
+                    FOOTER
+    =========================================== -->
+    <footer id="contacto" class="bg-dark text-white py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h4>
+                        Instituto Superior Tecnológico Tsáchila
+                    </h4>
+                    <p>
+                        Carrera de Educación Inicial
+                    </p>
+                    <p>
+                        Proyecto de Investigación
+                    </p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <p>
+                        <i class="fa-solid fa-envelope me-2"></i>
+                        educacioninicial@tsachila.edu.ec
+                    </p>
+                    <p>
+                        <i class="fa-solid fa-phone me-2"></i>
+                        (+593) XXX XXX XXX
+                    </p>
+                    <p>
+                        Santo Domingo - Ecuador
+                    </p>
+                </div>
+            </div>
+            <hr>
+            <div class="text-center">
+                © 2026 Instituto Superior Tecnológico Tsáchila - Todos los derechos reservados.
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/app.js"></script>
+
+</body>
+
+</html>

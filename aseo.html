@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hábitos de Aseo | Entorno Virtual de Orientación Pedagógica</title>
+
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+    <!-- CSS Personalizado -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- ================= NAVBAR ================= -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="index.html">
+<img src="assets/img/logo-ist.png" width="45" height="45" alt="Logo IST" class="me-2 rounded-circle object-fit-cover">                Instituto Superior Tecnológico Tsáchila
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="desarrollo.html">Desarrollo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active">Hábitos de Aseo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="alimentacion.html">Alimentación</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="evaluacion.html">Evaluación</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ================= HERO ================= -->
+    <section class="hero">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <span class="badge bg-warning text-dark">
+                        Grupo 1 · Inicial I
+                    </span>
+                    <h1>
+                        Hábitos de Aseo
+                    </h1>
+                    <h3>
+                        Lavado de Manos y Autonomía Infantil
+                    </h3>
+                    <p>
+                        El desarrollo de hábitos de higiene favorece la autonomía, previene enfermedades y fortalece el bienestar integral del niño de 3 a 4 años.
+                    </p>
+                    <a href="#lavado" class="btn btn-warning btn-lg">
+                        Aprender el procedimiento
+                    </a>
+                </div>
+
+                <div class="col-lg-6 text-center">
+                    <img src="assets/img/lavado-manos.png" class="img-fluid" alt="Lavado de manos">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= INTRODUCCIÓN ================= -->
+    <section class="container py-5">
+        <div class="text-center mb-5">
+            <h2>¿Por qué enseñar hábitos de aseo?</h2>
+            <p class="lead">
+                Los hábitos de higiene constituyen una de las primeras manifestaciones de autonomía infantil y deben fortalecerse mediante la práctica diaria tanto en el hogar como en el centro educativo.
+            </p>
+        </div>
+
+        <div class="row g-4">
+            <div class="col-lg-3">
+                <div class="card text-center shadow h-100">
+                    <div class="card-body">
+                        <i class="fa-solid fa-shield-virus fa-4x text-primary mb-3"></i>
+                        <h4>Previene Enfermedades</h4>
+                        <p>Reduce la transmisión de virus y bacterias.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="card text-center shadow h-100">
+                    <div class="card-body">
+                        <i class="fa-solid fa-child fa-4x text-success mb-3"></i>
+                        <h4>Favorece la Autonomía</h4>
+                        <p>Incrementa la independencia del niño.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="card text-center shadow h-100">
+                    <div class="card-body">
+                        <i class="fa-solid fa-school fa-4x text-warning mb-3"></i>
+                        <h4>Escuela Saludable</h4>
+                        <p>Promueve ambientes seguros.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="card text-center shadow h-100">
+                    <div class="card-body">
+                        <i class="fa-solid fa-heart fa-4x text-danger mb-3"></i>
+                        <h4>Bienestar</h4>
+                        <p>Favorece la salud integral.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= LAVADO DE MANOS (PASOS 1 AL 7 INTEGRADOS) ================= -->
+    <section id="lavado" class="container py-5">
+        <div class="text-center">
+            <h2>Los 7 pasos del lavado de manos</h2>
+            <p>
+                Aprender la secuencia ayuda a desarrollar la autonomía y disminuir enfermedades.
+            </p>
+        </div>
+
+        <div class="row g-4 mt-3">
+            <!-- Paso 1 -->
+            <div class="col-md-4">
+                <div class="card shadow h-100">
+                    <img src="assets/img/paso1.jpg" class="card-img-top" alt="Paso 1">
+                    <div class="card-body">
+                        <h3>Paso 1</h3>
+                        <h5>Mojar las manos</h5>
+                        <p>Abrir el grifo y humedecer completamente ambas manos.</p>
+                        <button class="btn btn-primary">
+                            <i class="fa-solid fa-volume-high"></i> Escuchar
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Paso 2 -->
+            <div class="col-md-4">
+                <div class="card shadow h-100">
+                    <img src="assets/img/paso2.jpg" class="card-img-top" alt="Paso 2">
+                    <div class="card-body">
+                        <h3>Paso 2</h3>
+                        <h5>Aplicar jabón</h5>
+                        <p>Utilizar suficiente jabón para cubrir toda la superficie.</p>
+                        <button class="btn btn-success">
+                            <i class="fa-solid fa-volume-high"></i> Escuchar
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Paso 3 -->
+            <div class="col-md-4">
+                <div class="card shadow h-100">
+                    <img src="assets/img/paso3.jpg" class="card-img-top" alt="Paso 3">
+                    <div class="card-body">
+                        <h3>Paso 3</h3>
+                        <h5>Frotar las palmas</h5>
+                        <p>Realizar movimientos circulares durante al menos 20 segundos.</p>
+                        <button class="btn btn-warning">
+                            <i class="fa-solid fa-volume-high"></i> Escuchar
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Paso 4 -->
+            <div class="col-md-4">
+                <div class="card shadow h-100">
+                    <img src="assets/img/paso4.jpg" class="card-img-top" alt="Paso 4">
+                    <div class="card-body">
+                        <h3 class="text-primary">Paso 4</h3>
+                        <h5>Frotar entre los dedos</h5>
+                        <p>Entrelazar los dedos y frotar cuidadosamente para eliminar la suciedad.</p>
+                        <button class="btn btn-primary">
+                            <i class="fa-solid fa-volume-high"></i> Escuchar
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Paso 5 -->
+            <div class="col-md-4">
+                <div class="card shadow h-100">
+                    <img src="assets/img/paso5.jpg" class="card-img-top" alt="Paso 5">
+                    <div class="card-body">
+                        <h3 class="text-success">Paso 5</h3>
+                        <h5>Limpiar uñas y pulgares</h5>
+                        <p>Frotar las uñas sobre la palma y limpiar cuidadosamente los pulgares.</p>
+                        <button class="btn btn-success">
+                            <i class="fa-solid fa-volume-high"></i> Escuchar
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Paso 6 -->
+            <div class="col-md-4">
+                <div class="card shadow h-100">
+                    <img src="assets/img/paso6.jpg" class="card-img-top" alt="Paso 6">
+                    <div class="card-body">
+                        <h3 class="text-warning">Paso 6</h3>
+                        <h5>Enjuagar</h5>
+                        <p>Retirar completamente el jabón utilizando abundante agua limpia.</p>
+                        <button class="btn btn-warning">
+                            <i class="fa-solid fa-volume-high"></i> Escuchar
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Paso 7 -->
+            <div class="col-md-4 mx-auto">
+                <div class="card shadow h-100">
+                    <img src="assets/img/paso7.jpg" class="card-img-top" alt="Paso 7">
+                    <div class="card-body">
+                        <h3 class="text-danger">Paso 7</h3>
+                        <h5>Secar correctamente</h5>
+                        <p>Secar completamente las manos con una toalla limpia o papel desechable.</p>
+                        <button class="btn btn-danger">
+                            <i class="fa-solid fa-volume-high"></i> Escuchar
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= ¿CUÁNDO LAVARNOS LAS MANOS? ================= -->
+    <section class="container py-5">
+        <div class="text-center mb-5">
+            <h2>
+                <i class="fa-solid fa-hands-bubbles text-primary"></i>
+                ¿Cuándo debemos lavarnos las manos?
+            </h2>
+            <p class="lead">
+                Existen momentos clave durante el día en los que el lavado de manos ayuda a prevenir enfermedades.
+            </p>
+        </div>
+
+        <div class="row g-4">
+            <div class="col-lg-4">
+                <div class="card text-center shadow h-100">
+                    <div class="card-body">
+                        <i class="fa-solid fa-utensils fa-4x text-success mb-3"></i>
+                        <h4>Antes de comer</h4>
+                        <p>Eliminar microorganismos antes de manipular alimentos.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="card text-center shadow h-100">
+                    <div class="card-body">
+                        <i class="fa-solid fa-toilet fa-4x text-primary mb-3"></i>
+                        <h4>Después de ir al baño</h4>
+                        <p>Evita la propagación de bacterias y virus.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="card text-center shadow h-100">
+                    <div class="card-body">
+                        <i class="fa-solid fa-dog fa-4x text-warning mb-3"></i>
+                        <h4>Después de tocar animales</h4>
+                        <p>Mantiene una adecuada higiene personal.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="card text-center shadow h-100">
+                    <div class="card-body">
+                        <i class="fa-solid fa-futbol fa-4x text-danger mb-3"></i>
+                        <h4>Después de jugar</h4>
+                        <p>Especialmente si se ha estado en contacto con tierra o arena.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="card text-center shadow h-100">
+                    <div class="card-body">
+                        <i class="fa-solid fa-face-mask fa-4x text-info mb-3"></i>
+                        <h4>Después de toser o estornudar</h4>
+                        <p>Reduce la transmisión de enfermedades respiratorias.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="card text-center shadow h-100">
+                    <div class="card-body">
+                        <i class="fa-solid fa-trash fa-4x text-secondary mb-3"></i>
+                        <h4>Después de tocar basura</h4>
+                        <p>Evita la contaminación cruzada.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= ACTIVIDADES PEDAGÓGICAS ================= -->
+    <section class="container py-5">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="card shadow h-100 border-0">
+                    <div class="card-header bg-primary text-white">
+                        <h4>
+                            <i class="fa-solid fa-school"></i>
+                            Actividades para Docentes
+                        </h4>
+                    </div>
+                    <div class="card-body">
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">🎵 Canción del lavado de manos.</li>
+                            <li class="list-group-item">🖍 Pintar la secuencia del lavado.</li>
+                            <li class="list-group-item">🎭 Juego de roles.</li>
+                            <li class="list-group-item">🧩 Pictogramas secuenciales.</li>
+                            <li class="list-group-item">🧼 Demostración práctica con jabón.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="card shadow h-100 border-0">
+                    <div class="card-header bg-success text-white">
+                        <h4>
+                            <i class="fa-solid fa-house"></i>
+                            Actividades para Familias
+                        </h4>
+                    </div>
+                    <div class="card-body">
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">👨‍👩‍👧 Lavarse las manos antes de cada comida.</li>
+                            <li class="list-group-item">⭐ Reforzar con elogios.</li>
+                            <li class="list-group-item">📖 Leer cuentos sobre higiene.</li>
+                            <li class="list-group-item">🧸 Practicar con muñecos.</li>
+                            <li class="list-group-item">🗓 Mantener una rutina diaria.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= JUEGO INTERACTIVO ================= -->
+    <!-- ================= JUEGO INTERACTIVO ================= -->
+    <section class="container py-5" id="juego">
+        <div class="text-center mb-5">
+            <h2 class="fw-bold text-primary">
+                <i class="fa-solid fa-puzzle-piece me-2"></i>
+                Juego Interactivo
+            </h2>
+            <p class="lead">
+                ¿Recuerdas el orden correcto del lavado de manos?
+            </p>
+        </div>
+
+        <div class="alert alert-warning text-center">
+            <strong>Actividad:</strong> Escribe los números del <strong>1 al 7</strong> según el orden correcto de los pasos.
+        </div>
+
+        <!-- Mensaje de respuesta del juego -->
+        <div id="resultado" class="mb-3"></div>
+
+        <div class="table-responsive">
+            <table class="table table-bordered table-hover text-center align-middle">
+                <thead class="table-primary">
+                    <tr>
+                        <th>Paso</th>
+                        <th style="width: 150px;">Orden</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Mojar las manos</td>
+                        <td><input type="number" id="paso1" min="1" max="7" class="form-control text-center"></td>
+                    </tr>
+                    <tr>
+                        <td>Aplicar jabón</td>
+                        <td><input type="number" id="paso2" min="1" max="7" class="form-control text-center"></td>
+                    </tr>
+                    <tr>
+                        <td>Frotar las palmas</td>
+                        <td><input type="number" id="paso3" min="1" max="7" class="form-control text-center"></td>
+                    </tr>
+                    <tr>
+                        <td>Frotar entre los dedos</td>
+                        <td><input type="number" id="paso4" min="1" max="7" class="form-control text-center"></td>
+                    </tr>
+                    <tr>
+                        <td>Limpiar uñas y pulgares</td>
+                        <td><input type="number" id="paso5" min="1" max="7" class="form-control text-center"></td>
+                    </tr>
+                    <tr>
+                        <td>Enjuagar</td>
+                        <td><input type="number" id="paso6" min="1" max="7" class="form-control text-center"></td>
+                    </tr>
+                    <tr>
+                        <td>Secar correctamente</td>
+                        <td><input type="number" id="paso7" min="1" max="7" class="form-control text-center"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="text-center mt-3">
+            <button type="button" onclick="validarJuego()" class="btn btn-success btn-lg shadow-sm">
+                Comprobar respuestas
+            </button>
+        </div>
+    </section>
+
+
+<!-- =====================================================
+        LISTA DE OBSERVACIÓN EVALUATIVA
+====================================================== -->
+<section class="container py-5" id="evaluacion">
+    <div class="text-center mb-4">
+        <h2 class="fw-bold text-primary">
+            <i class="fa-solid fa-clipboard-check me-2"></i>
+            Lista de Observación de Alimentación Autónoma
+        </h2>
+        <p class="lead">
+            Instrumento orientativo para docentes y familias. Seleccione el nivel observado en cada indicador y haga clic en **Evaluar**.
+        </p>
+    </div>
+
+    <!-- Banner donde aparecerá el resultado al hacer clic en Evaluar -->
+    <div id="resultado-observacion" class="alert alert-secondary text-center shadow-sm mb-4">
+        <i class="fa-solid fa-info-circle me-2"></i> Seleccione las opciones en la tabla y presione el botón <strong>Evaluar Lista de Observación</strong>.
+    </div>
+
+    <div class="table-responsive shadow-sm rounded">
+        <table class="table table-bordered table-hover align-middle mb-0">
+            <thead class="table-success text-center">
+                <tr>
+                    <th class="text-start">Indicador de Autonomía</th>
+                    <th style="width: 110px;">Sí (2 pts)</th>
+                    <th style="width: 110px;">En proceso (1 pt)</th>
+                    <th style="width: 110px;">No (0 pts)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Se lava las manos antes de comer.</td>
+                    <td class="text-center"><input type="radio" name="obs1" value="2" class="form-check-input"></td>
+                    <td class="text-center"><input type="radio" name="obs1" value="1" class="form-check-input"></td>
+                    <td class="text-center"><input type="radio" name="obs1" value="0" class="form-check-input"></td>
+                </tr>
+                <tr>
+                    <td>Se sienta correctamente durante la comida.</td>
+                    <td class="text-center"><input type="radio" name="obs2" value="2" class="form-check-input"></td>
+                    <td class="text-center"><input type="radio" name="obs2" value="1" class="form-check-input"></td>
+                    <td class="text-center"><input type="radio" name="obs2" value="0" class="form-check-input"></td>
+                </tr>
+                <tr>
+                    <td>Utiliza la cuchara sin ayuda.</td>
+                    <td class="text-center"><input type="radio" name="obs3" value="2" class="form-check-input"></td>
+                    <td class="text-center"><input type="radio" name="obs3" value="1" class="form-check-input"></td>
+                    <td class="text-center"><input type="radio" name="obs3" value="0" class="form-check-input"></td>
+                </tr>
+                <tr>
+                    <td>Utiliza el vaso adecuadamente.</td>
+                    <td class="text-center"><input type="radio" name="obs4" value="2" class="form-check-input"></td>
+                    <td class="text-center"><input type="radio" name="obs4" value="1" class="form-check-input"></td>
+                    <td class="text-center"><input type="radio" name="obs4" value="0" class="form-check-input"></td>
+                </tr>
+                <tr>
+                    <td>Consume frutas y verduras.</td>
+                    <td class="text-center"><input type="radio" name="obs5" value="2" class="form-check-input"></td>
+                    <td class="text-center"><input type="radio" name="obs5" value="1" class="form-check-input"></td>
+                    <td class="text-center"><input type="radio" name="obs5" value="0" class="form-check-input"></td>
+                </tr>
+                <tr>
+                    <td>Permanece sentado hasta terminar.</td>
+                    <td class="text-center"><input type="radio" name="obs6" value="2" class="form-check-input"></td>
+                    <td class="text-center"><input type="radio" name="obs6" value="1" class="form-check-input"></td>
+                    <td class="text-center"><input type="radio" name="obs6" value="0" class="form-check-input"></td>
+                </tr>
+                <tr>
+                    <td>Recoge sus utensilios al finalizar.</td>
+                    <td class="text-center"><input type="radio" name="obs7" value="2" class="form-check-input"></td>
+                    <td class="text-center"><input type="radio" name="obs7" value="1" class="form-check-input"></td>
+                    <td class="text-center"><input type="radio" name="obs7" value="0" class="form-check-input"></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- BOTONES DE EVALUACIÓN Y ACCIÓN -->
+    <div class="d-flex flex-wrap justify-content-center gap-3 mt-4">
+        <button type="button" class="btn btn-primary btn-lg shadow-sm fw-bold" onclick="calcularListaObservacion()">
+            <i class="fa-solid fa-calculator me-2"></i> Evaluar Lista de Observación
+        </button>
+        <button type="button" class="btn btn-outline-danger btn-lg shadow-sm" onclick="reiniciarListaObservacion()">
+            <i class="fa-solid fa-rotate-right me-1"></i> Reiniciar
+        </button>
+        <button type="button" class="btn btn-outline-secondary btn-lg shadow-sm" onclick="window.print()">
+            <i class="fa-solid fa-print me-1"></i> Imprimir
+        </button>
+    </div>
+</section>
+
+
+
+   
+    <!-- ================= VIDEO ================= -->
+    <section class="container py-5">
+        <div class="text-center mb-4">
+            <h2 class="fw-bold">
+                <i class="fa-solid fa-video text-danger me-2"></i>
+                Video Educativo
+            </h2>
+            <p class="text-muted">Visualiza la técnica correcta del lavado de manos.</p>
+        </div>
+
+        <div class="ratio ratio-16x9 shadow rounded-4 overflow-hidden">
+            <iframe src="https://www.youtube.com/embed/flSL2LvfUm0?si=P9CRAy9j9bPMq-Gx" 
+                    title="YouTube video player" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    referrerpolicy="strict-origin-when-cross-origin" 
+                    allowfullscreen>
+            </iframe>
+        </div>
+    </section>
+
+    <!-- ================= DESCARGAS ================= -->
+    <section class="container py-5">
+        <div class="text-center">
+            <h2>Material Descargable</h2>
+        </div>
+
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="card shadow text-center">
+                    <div class="card-body">
+                        <i class="fa-solid fa-file-pdf fa-4x text-danger"></i>
+                        <h4 class="mt-3">Guía Docente</h4>
+                        <a href="assets/pdf/guia-docente.pdf" class="btn btn-danger">Descargar</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card shadow text-center">
+                    <div class="card-body">
+                        <i class="fa-solid fa-file-pdf fa-4x text-primary"></i>
+                        <h4 class="mt-3">Guía Familiar</h4>
+                        <a href="assets/pdf/guia-familias.pdf" class="btn btn-primary">Descargar</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card shadow text-center">
+                    <div class="card-body">
+                        <i class="fa-solid fa-image fa-4x text-success"></i>
+                        <h4 class="mt-3">Pictogramas</h4>
+                        <a href="assets/pdf/pictogramas.pdf" class="btn btn-success">Descargar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= BIBLIOGRAFÍA ================= -->
+    <section class="container py-5">
+        <h2 class="text-center mb-4">Bibliografía</h2>
+
+        <div class="card shadow">
+            <div class="card-body">
+                <ul>
+                    <li>Organización Mundial de la Salud. (2023). Higiene de manos.</li>
+                    <li>UNICEF. (2022). Desarrollo Infantil Temprano.</li>
+                    <li>Centers for Disease Control and Prevention. (2023). Handwashing.</li>
+                    <li>Ministerio de Educación del Ecuador. (2014). Currículo de Educación Inicial.</li>
+                    <li>Papalia, D. Desarrollo Humano.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= NAVEGACIÓN ================= -->
+    <section class="container py-4">
+        <div class="d-flex justify-content-between">
+            <a href="desarrollo.html" class="btn btn-outline-primary btn-lg">← Desarrollo Infantil</a>
+            <a href="alimentacion.html" class="btn btn-primary btn-lg">Alimentación →</a>
+        </div>
+    </section>
+
+    <!-- ================= FOOTER ================= -->
+    <footer class="bg-dark text-white mt-5">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-lg-8">
+                    <h4>Instituto Superior Tecnológico Tsáchila</h4>
+                    <p>Proyecto de Investigación</p>
+                    <p>Observación de Conductas de Autonomía para el Diagnóstico de los Hábitos de Aseo y Alimentación en Niños de 3 a 4 años.</p>
+                </div>
+                <div class="col-lg-4 text-lg-end">
+                    <p>Carrera de Educación Inicial</p>
+                    <p>Santo Domingo - Ecuador</p>
+                </div>
+            </div>
+            <hr>
+            <div class="text-center">
+                © 2026 Instituto Superior Tecnológico Tsáchila
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/app.js"></script>
+
+</body>
+
+
+</html>
